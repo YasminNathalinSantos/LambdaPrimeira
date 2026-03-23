@@ -1,2 +1,8 @@
+import os
+
+ambiente = os.environ['MMEU_AMBIENTE']
+
 def exibirLog(mensagem):
-    print("Ajustando Log apos git actions -aplicação para monitoramento:", mensagem)
+    print("Log para monitoramento:", mensagem)
+    print("AMBIENTE:", ambiente)
+
